@@ -7,14 +7,22 @@
 
 import SwiftUI
 
-struct CustomModifiers: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+extension Shape {
+    func fillBasedOnComparison(for value: Double, threshold: Double, lt: Color, eq: Color, gt: Color) ->  some View {
+        if value < threshold {
+            return self.fill(lt)
+        } else if value == threshold {
+            return self.fill(eq)
+        } else {
+            return self.fill(gt)
+        }
     }
 }
 
-struct CustomModifiers_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomModifiers()
+
+extension View {
+    func stacked(at position: Int, in total: Int) -> some View {
+        let offset = Double(total - position)
+        return self.offset(x: 0, y: offset * 10)
     }
 }
