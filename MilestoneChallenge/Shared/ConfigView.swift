@@ -8,13 +8,33 @@
 import SwiftUI
 
 struct ConfigView: View {
+    @Environment(\.dismiss) var dismiss
+    @Binding var dice: Dice    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                List {
+                    Picker("Dice sides", selection: $dice.sides) {
+                        ForEach(1..<101) { s in
+                            Text("\(s)").tag(s)
+                        }
+                    }
+                }
+                Button(action: { dismiss() }) {
+                    Text("Done")
+                }
+                .buttonStyle(.borderedProminent)
+            }
+        }
+        .navigationTitle("Dice Preferences")
     }
 }
 
-struct ConfigView_Previews: PreviewProvider {
-    static var previews: some View {
-        ConfigView()
-    }
-}
+//struct ConfigView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ConfigView(6) { _ in
+//            // Do nothing
+//        }
+//    }
+//}

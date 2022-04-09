@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+func documentDirectory() -> URL {
+    let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+    return urls[0]
+}

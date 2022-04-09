@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8B40CF827F9623D00874771 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B40CF727F9623D00874771 /* Utilities.swift */; };
+		E8B40CF927F9623D00874771 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B40CF727F9623D00874771 /* Utilities.swift */; };
 		E8E7334627F8DC8D00A92F9E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7334527F8DC8D00A92F9E /* Tests_iOS.swift */; };
 		E8E7334827F8DC8D00A92F9E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7334727F8DC8D00A92F9E /* Tests_iOSLaunchTests.swift */; };
 		E8E7335227F8DC8D00A92F9E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7335127F8DC8D00A92F9E /* Tests_macOS.swift */; };
@@ -21,6 +23,12 @@
 		E8E7335C27F8DC8D00A92F9E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7332E27F8DC8B00A92F9E /* Persistence.swift */; };
 		E8E7335D27F8DC8D00A92F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E7332F27F8DC8C00A92F9E /* Assets.xcassets */; };
 		E8E7335E27F8DC8D00A92F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E7332F27F8DC8C00A92F9E /* Assets.xcassets */; };
+		E8E7336E27F8DD3200A92F9E /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7336D27F8DD3200A92F9E /* Dice.swift */; };
+		E8E7336F27F8DD3200A92F9E /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7336D27F8DD3200A92F9E /* Dice.swift */; };
+		E8E7337127F8E08500A92F9E /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7337027F8E08500A92F9E /* DiceView.swift */; };
+		E8E7337227F8E08500A92F9E /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7337027F8E08500A92F9E /* DiceView.swift */; };
+		E8E7337427F95BB100A92F9E /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7337327F95BB000A92F9E /* ConfigView.swift */; };
+		E8E7337527F95BB100A92F9E /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7337327F95BB000A92F9E /* ConfigView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8B40CF727F9623D00874771 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		E8E7332B27F8DC8B00A92F9E /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		E8E7332C27F8DC8B00A92F9E /* MilestoneChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneChallengeApp.swift; sourceTree = "<group>"; };
 		E8E7332D27F8DC8B00A92F9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +64,9 @@
 		E8E7334D27F8DC8D00A92F9E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E7335127F8DC8D00A92F9E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E8E7335327F8DC8D00A92F9E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		E8E7336D27F8DD3200A92F9E /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		E8E7337027F8E08500A92F9E /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		E8E7337327F95BB000A92F9E /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,10 @@
 			children = (
 				E8E7332C27F8DC8B00A92F9E /* MilestoneChallengeApp.swift */,
 				E8E7332D27F8DC8B00A92F9E /* ContentView.swift */,
+				E8E7337327F95BB000A92F9E /* ConfigView.swift */,
+				E8E7336D27F8DD3200A92F9E /* Dice.swift */,
+				E8B40CF727F9623D00874771 /* Utilities.swift */,
+				E8E7337027F8E08500A92F9E /* DiceView.swift */,
 				E8E7332E27F8DC8B00A92F9E /* Persistence.swift */,
 				E8E7332F27F8DC8C00A92F9E /* Assets.xcassets */,
 				E8E7332A27F8DC8B00A92F9E /* MilestoneChallenge.xcdatamodeld */,
@@ -308,8 +324,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E7335727F8DC8D00A92F9E /* MilestoneChallengeApp.swift in Sources */,
+				E8E7337127F8E08500A92F9E /* DiceView.swift in Sources */,
 				E8E7335B27F8DC8D00A92F9E /* Persistence.swift in Sources */,
+				E8E7337427F95BB100A92F9E /* ConfigView.swift in Sources */,
+				E8E7336E27F8DD3200A92F9E /* Dice.swift in Sources */,
 				E8E7335527F8DC8D00A92F9E /* MilestoneChallenge.xcdatamodeld in Sources */,
+				E8B40CF827F9623D00874771 /* Utilities.swift in Sources */,
 				E8E7335927F8DC8D00A92F9E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,8 +339,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E7335827F8DC8D00A92F9E /* MilestoneChallengeApp.swift in Sources */,
+				E8E7337227F8E08500A92F9E /* DiceView.swift in Sources */,
 				E8E7335C27F8DC8D00A92F9E /* Persistence.swift in Sources */,
+				E8E7337527F95BB100A92F9E /* ConfigView.swift in Sources */,
+				E8E7336F27F8DD3200A92F9E /* Dice.swift in Sources */,
 				E8E7335627F8DC8D00A92F9E /* MilestoneChallenge.xcdatamodeld in Sources */,
+				E8B40CF927F9623D00874771 /* Utilities.swift in Sources */,
 				E8E7335A27F8DC8D00A92F9E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +507,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -513,7 +537,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
