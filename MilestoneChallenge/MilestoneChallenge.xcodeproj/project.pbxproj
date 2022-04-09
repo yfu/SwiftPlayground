@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8E7334627F8DC8D00A92F9E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7334527F8DC8D00A92F9E /* Tests_iOS.swift */; };
+		E8E7334827F8DC8D00A92F9E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7334727F8DC8D00A92F9E /* Tests_iOSLaunchTests.swift */; };
+		E8E7335227F8DC8D00A92F9E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7335127F8DC8D00A92F9E /* Tests_macOS.swift */; };
+		E8E7335427F8DC8D00A92F9E /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7335327F8DC8D00A92F9E /* Tests_macOSLaunchTests.swift */; };
+		E8E7335527F8DC8D00A92F9E /* MilestoneChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8E7332A27F8DC8B00A92F9E /* MilestoneChallenge.xcdatamodeld */; };
+		E8E7335627F8DC8D00A92F9E /* MilestoneChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8E7332A27F8DC8B00A92F9E /* MilestoneChallenge.xcdatamodeld */; };
+		E8E7335727F8DC8D00A92F9E /* MilestoneChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7332C27F8DC8B00A92F9E /* MilestoneChallengeApp.swift */; };
+		E8E7335827F8DC8D00A92F9E /* MilestoneChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7332C27F8DC8B00A92F9E /* MilestoneChallengeApp.swift */; };
+		E8E7335927F8DC8D00A92F9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7332D27F8DC8B00A92F9E /* ContentView.swift */; };
+		E8E7335A27F8DC8D00A92F9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7332D27F8DC8B00A92F9E /* ContentView.swift */; };
+		E8E7335B27F8DC8D00A92F9E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7332E27F8DC8B00A92F9E /* Persistence.swift */; };
+		E8E7335C27F8DC8D00A92F9E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7332E27F8DC8B00A92F9E /* Persistence.swift */; };
+		E8E7335D27F8DC8D00A92F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E7332F27F8DC8C00A92F9E /* Assets.xcassets */; };
+		E8E7335E27F8DC8D00A92F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E7332F27F8DC8C00A92F9E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8E7334227F8DC8D00A92F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E7332527F8DC8A00A92F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E7333327F8DC8C00A92F9E;
+			remoteInfo = "MilestoneChallenge (iOS)";
+		};
+		E8E7334E27F8DC8D00A92F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E7332527F8DC8A00A92F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E7333927F8DC8D00A92F9E;
+			remoteInfo = "MilestoneChallenge (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8E7332B27F8DC8B00A92F9E /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		E8E7332C27F8DC8B00A92F9E /* MilestoneChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneChallengeApp.swift; sourceTree = "<group>"; };
+		E8E7332D27F8DC8B00A92F9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8E7332E27F8DC8B00A92F9E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E8E7332F27F8DC8C00A92F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8E7333427F8DC8C00A92F9E /* MilestoneChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilestoneChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E7333A27F8DC8D00A92F9E /* MilestoneChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilestoneChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E7333C27F8DC8D00A92F9E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E8E7334127F8DC8D00A92F9E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E7334527F8DC8D00A92F9E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		E8E7334727F8DC8D00A92F9E /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		E8E7334D27F8DC8D00A92F9E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E7335127F8DC8D00A92F9E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		E8E7335327F8DC8D00A92F9E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8E7333127F8DC8C00A92F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E7333727F8DC8D00A92F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E7333E27F8DC8D00A92F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E7334A27F8DC8D00A92F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8E7332427F8DC8A00A92F9E = {
+			isa = PBXGroup;
+			children = (
+				E8E7332927F8DC8B00A92F9E /* Shared */,
+				E8E7333B27F8DC8D00A92F9E /* macOS */,
+				E8E7334427F8DC8D00A92F9E /* Tests iOS */,
+				E8E7335027F8DC8D00A92F9E /* Tests macOS */,
+				E8E7333527F8DC8C00A92F9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E7332927F8DC8B00A92F9E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E8E7332C27F8DC8B00A92F9E /* MilestoneChallengeApp.swift */,
+				E8E7332D27F8DC8B00A92F9E /* ContentView.swift */,
+				E8E7332E27F8DC8B00A92F9E /* Persistence.swift */,
+				E8E7332F27F8DC8C00A92F9E /* Assets.xcassets */,
+				E8E7332A27F8DC8B00A92F9E /* MilestoneChallenge.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E8E7333527F8DC8C00A92F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8E7333427F8DC8C00A92F9E /* MilestoneChallenge.app */,
+				E8E7333A27F8DC8D00A92F9E /* MilestoneChallenge.app */,
+				E8E7334127F8DC8D00A92F9E /* Tests iOS.xctest */,
+				E8E7334D27F8DC8D00A92F9E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8E7333B27F8DC8D00A92F9E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E8E7333C27F8DC8D00A92F9E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E8E7334427F8DC8D00A92F9E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E8E7334527F8DC8D00A92F9E /* Tests_iOS.swift */,
+				E8E7334727F8DC8D00A92F9E /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		E8E7335027F8DC8D00A92F9E /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E8E7335127F8DC8D00A92F9E /* Tests_macOS.swift */,
+				E8E7335327F8DC8D00A92F9E /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8E7333327F8DC8C00A92F9E /* MilestoneChallenge (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E7336127F8DC8D00A92F9E /* Build configuration list for PBXNativeTarget "MilestoneChallenge (iOS)" */;
+			buildPhases = (
+				E8E7333027F8DC8C00A92F9E /* Sources */,
+				E8E7333127F8DC8C00A92F9E /* Frameworks */,
+				E8E7333227F8DC8C00A92F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MilestoneChallenge (iOS)";
+			productName = "MilestoneChallenge (iOS)";
+			productReference = E8E7333427F8DC8C00A92F9E /* MilestoneChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8E7333927F8DC8D00A92F9E /* MilestoneChallenge (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E7336427F8DC8D00A92F9E /* Build configuration list for PBXNativeTarget "MilestoneChallenge (macOS)" */;
+			buildPhases = (
+				E8E7333627F8DC8D00A92F9E /* Sources */,
+				E8E7333727F8DC8D00A92F9E /* Frameworks */,
+				E8E7333827F8DC8D00A92F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MilestoneChallenge (macOS)";
+			productName = "MilestoneChallenge (macOS)";
+			productReference = E8E7333A27F8DC8D00A92F9E /* MilestoneChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8E7334027F8DC8D00A92F9E /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E7336727F8DC8D00A92F9E /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				E8E7333D27F8DC8D00A92F9E /* Sources */,
+				E8E7333E27F8DC8D00A92F9E /* Frameworks */,
+				E8E7333F27F8DC8D00A92F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E7334327F8DC8D00A92F9E /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = E8E7334127F8DC8D00A92F9E /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E8E7334C27F8DC8D00A92F9E /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E7336A27F8DC8D00A92F9E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				E8E7334927F8DC8D00A92F9E /* Sources */,
+				E8E7334A27F8DC8D00A92F9E /* Frameworks */,
+				E8E7334B27F8DC8D00A92F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E7334F27F8DC8D00A92F9E /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = E8E7334D27F8DC8D00A92F9E /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8E7332527F8DC8A00A92F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E8E7333327F8DC8C00A92F9E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					E8E7333927F8DC8D00A92F9E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					E8E7334027F8DC8D00A92F9E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E8E7333327F8DC8C00A92F9E;
+					};
+					E8E7334C27F8DC8D00A92F9E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E8E7333927F8DC8D00A92F9E;
+					};
+				};
+			};
+			buildConfigurationList = E8E7332827F8DC8A00A92F9E /* Build configuration list for PBXProject "MilestoneChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E7332427F8DC8A00A92F9E;
+			productRefGroup = E8E7333527F8DC8C00A92F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8E7333327F8DC8C00A92F9E /* MilestoneChallenge (iOS) */,
+				E8E7333927F8DC8D00A92F9E /* MilestoneChallenge (macOS) */,
+				E8E7334027F8DC8D00A92F9E /* Tests iOS */,
+				E8E7334C27F8DC8D00A92F9E /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8E7333227F8DC8C00A92F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E7335D27F8DC8D00A92F9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E7333827F8DC8D00A92F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E7335E27F8DC8D00A92F9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E7333F27F8DC8D00A92F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E7334B27F8DC8D00A92F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8E7333027F8DC8C00A92F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E7335727F8DC8D00A92F9E /* MilestoneChallengeApp.swift in Sources */,
+				E8E7335B27F8DC8D00A92F9E /* Persistence.swift in Sources */,
+				E8E7335527F8DC8D00A92F9E /* MilestoneChallenge.xcdatamodeld in Sources */,
+				E8E7335927F8DC8D00A92F9E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E7333627F8DC8D00A92F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E7335827F8DC8D00A92F9E /* MilestoneChallengeApp.swift in Sources */,
+				E8E7335C27F8DC8D00A92F9E /* Persistence.swift in Sources */,
+				E8E7335627F8DC8D00A92F9E /* MilestoneChallenge.xcdatamodeld in Sources */,
+				E8E7335A27F8DC8D00A92F9E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E7333D27F8DC8D00A92F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E7334827F8DC8D00A92F9E /* Tests_iOSLaunchTests.swift in Sources */,
+				E8E7334627F8DC8D00A92F9E /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E7334927F8DC8D00A92F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E7335427F8DC8D00A92F9E /* Tests_macOSLaunchTests.swift in Sources */,
+				E8E7335227F8DC8D00A92F9E /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8E7334327F8DC8D00A92F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E7333327F8DC8C00A92F9E /* MilestoneChallenge (iOS) */;
+			targetProxy = E8E7334227F8DC8D00A92F9E /* PBXContainerItemProxy */;
+		};
+		E8E7334F27F8DC8D00A92F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E7333927F8DC8D00A92F9E /* MilestoneChallenge (macOS) */;
+			targetProxy = E8E7334E27F8DC8D00A92F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E8E7335F27F8DC8D00A92F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8E7336027F8DC8D00A92F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E8E7336227F8DC8D00A92F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4748Y8S8R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yfu.me.MilestoneChallenge;
+				PRODUCT_NAME = MilestoneChallenge;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8E7336327F8DC8D00A92F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4748Y8S8R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yfu.me.MilestoneChallenge;
+				PRODUCT_NAME = MilestoneChallenge;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E7336527F8DC8D00A92F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4748Y8S8R2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yfu.me.MilestoneChallenge;
+				PRODUCT_NAME = MilestoneChallenge;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E8E7336627F8DC8D00A92F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4748Y8S8R2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yfu.me.MilestoneChallenge;
+				PRODUCT_NAME = MilestoneChallenge;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E8E7336827F8DC8D00A92F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4748Y8S8R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yfu.me.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MilestoneChallenge (iOS)";
+			};
+			name = Debug;
+		};
+		E8E7336927F8DC8D00A92F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4748Y8S8R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yfu.me.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MilestoneChallenge (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E7336B27F8DC8D00A92F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4748Y8S8R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yfu.me.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MilestoneChallenge (macOS)";
+			};
+			name = Debug;
+		};
+		E8E7336C27F8DC8D00A92F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4748Y8S8R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yfu.me.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MilestoneChallenge (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8E7332827F8DC8A00A92F9E /* Build configuration list for PBXProject "MilestoneChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E7335F27F8DC8D00A92F9E /* Debug */,
+				E8E7336027F8DC8D00A92F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E7336127F8DC8D00A92F9E /* Build configuration list for PBXNativeTarget "MilestoneChallenge (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E7336227F8DC8D00A92F9E /* Debug */,
+				E8E7336327F8DC8D00A92F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E7336427F8DC8D00A92F9E /* Build configuration list for PBXNativeTarget "MilestoneChallenge (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E7336527F8DC8D00A92F9E /* Debug */,
+				E8E7336627F8DC8D00A92F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E7336727F8DC8D00A92F9E /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E7336827F8DC8D00A92F9E /* Debug */,
+				E8E7336927F8DC8D00A92F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E7336A27F8DC8D00A92F9E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E7336B27F8DC8D00A92F9E /* Debug */,
+				E8E7336C27F8DC8D00A92F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8E7332A27F8DC8B00A92F9E /* MilestoneChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8E7332B27F8DC8B00A92F9E /* Shared.xcdatamodel */,
+			);
+			currentVersion = E8E7332B27F8DC8B00A92F9E /* Shared.xcdatamodel */;
+			path = MilestoneChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8E7332527F8DC8A00A92F9E /* Project object */;
+}
